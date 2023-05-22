@@ -1,0 +1,13 @@
+@keyframes spin {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+#roblox-avatar:hover {
+    animation: spin 1s linear 0s infinite normal forwards;
+}
