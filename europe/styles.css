@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    margin-left: 5px;
+    padding: 0px;
+    font-family: faces, sans-serif;
+}
+
+@font-face {
+    font-family: arabic-font;
+    src: url(fonts/xxii_arabian_onenightstand/XXII\ ARABIAN-ONENIGHTSTAND.ttf);
+
+}
+@font-face {
+    font-family: faces;
+    src: url(fonts/sketchy_smiley/SketchySmiley.ttf);
+}
+
+a {
+    color: rgb(255, 100, 100);
+}
+
+a:hover {
+    color: rgb(255, 0, 255);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 5px;
+}
